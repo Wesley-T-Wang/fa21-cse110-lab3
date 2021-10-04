@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang=”en”>
+<html>
     <head>
         <link rel="icon" type="image/x-icon" href="https://pbs.twimg.com/profile_images/1218255157638488064/gjv6y1Kn.jpg">
         <title>Leaflet</title>
@@ -60,25 +60,25 @@
 
         <div>
             <video width="320" height="240" controls>
-                <source src="yt5s.com-leaflet (citrushack '21).mp4" type="video/mp4">
+                <source src="leafletAudio.mp4" type="video/mp4">
             </video>
 
             <audio controls>
-                <source src="leaflet (citrushack '21).mp3" type="audio/mpeg">
+                <source src="leaflet.mp3" type="audio/mpeg">
             </audio>
             
         </div>
 
         <hr>
 
-        <form action="">
+        <form>
             <h1>Submit a Question</h1>
             <fieldset>
                 <div>
-                    <input name="name" type="text">
-                    <label for="name">First Name</label>
+                    <input id="firstName" name="name" type="text">
+                    <label for="firstName">First Name</label>
 
-                    <input name="last" type="text">
+                    <input id= "lastName" name="last" type="text">
                     <label for="last">Last Name</label>
                 </div>
 
@@ -92,18 +92,18 @@
                 </div>
 
                 <div>
-                    <input name="attendance" type="checkbox">
+                    <input id="attendance" name="attend" type="checkbox">
                     <label for="attendance"> Did you attend?</label>
 
-                    <input name="remind" type="radio">
-                    <label for="remind">Notify me</label>
+                    <input id="reminder" name="remind" type="radio">
+                    <label for="reminder">Notify me</label>
 
                     
                 </div>
 
                 <div>
-                    <label for="today">Date</label>
-                    <input name="today" type="date">
+                    <label id="isToday" for="today">Date</label>
+                    <input name="isToday" type="date">
                 </div>
 
                 <div>
