@@ -92,6 +92,7 @@ button:active{
 
 audio, video {
     background-color:teal;
+    color:orange;
 }
 
 div > h1{
